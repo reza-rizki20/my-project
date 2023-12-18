@@ -1,0 +1,252 @@
+/* ? navbar */
+.navbar .navbar-nav .nav-link:hover{
+background-color: var(--acsentColor);
+}
+
+@media screen and (min-width:992px){
+    .navbar{
+        padding:0;
+    }
+}
+
+@media screen and (max-width:991px){
+    .navbar-nav{
+        padding-top: .5em;
+    }
+    .navbar-toggler{
+        padding: .95em;
+        padding-top: .95em;
+    }
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar .navbar-nav .nav-link{
+    padding: 1em;
+    transition: all .6s;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.cari{
+    background-color: #F77F00;
+    color: white;
+}
+
+.cari:hover {
+    background-color: var(--secondaryColor);
+    color: white;
+}
+
+/* ? score board */
+.card-footer .button{
+    border: 2px solid white;
+}
+
+/* ? guessNumber */
+.card-img-top{
+    width: 300px;
+}
+
+.belur{
+    filter: blur(38px);
+}
+
+.tombol{
+    display: none;
+}
+
+/* ?_____________________________ */
+
+/* ? search */
+.gambar {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Membuat jarak antara gambar */
+  }
+  
+  .gambar img {
+    border: 5px solid white;
+    width: 20%; /* Atur lebar gambar agar 5 gambar berbaris */
+
+  }
+  /* ?____________________________ */
+
+  /* ? Home.ejs */
+:root {
+    --mainColor: #1B263B;
+    --secondaryColor: #003049;
+    --acsentColor:#F77F00;
+}
+
+body{
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+/* hero */
+
+#hero{
+    color: white;
+    min-height: 100vh;
+}
+
+#hero h1{
+    font-size: 3rem;
+}
+
+#hero h2{
+    font-weight: 300;
+}
+
+#hero p{
+    font-weight: 300;
+}
+
+.btn-custom1{
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: white;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.btn-custom1:hover{
+    box-shadow: 0 0 5px rgba(255, 166, 0, .8);
+}
+
+.social-icon img{
+    margin-right: .7em;
+    margin-bottom:10px;
+    border: 3px solid white;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.social-icon{
+    margin-top: 60%;
+}
+
+.gambar-wajah{
+    padding-top: 25px;
+}
+
+.gambar-wajah img{
+    border: 3px solid white;
+    min-width: 500px;
+    min-height: 500px;
+}
+
+.hero1{
+    padding-top: 100px;
+}
+/* end hero */
+
+/* About */
+hr{
+    width: 35%;
+    height: 2px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about{
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* End About */
+
+/* Skill */
+
+.gambar-skill img{
+    width: 150px;
+    height: 130px;
+    margin: 15px;
+    margin-top: 10px;
+
+}
+
+#skill {
+    padding-top: 80px;
+    height: 800px;
+    width: 100%;
+    color: white;
+}
+
+.skill-gambar img{
+    min-width: 180px;
+    height: 150px;
+}
+
+#skill .card{
+    background-color: #707070;
+    height: 640px;
+    color: white;
+}
+
+#skill .card:hover{
+    background-color: var(--acsentColor);
+}
+
+.skill-content{
+    padding-top: 100px;
+}
+/* End Skill */
+
+/* Pendidikan */
+
+#sertifikat{
+    background-color: var(--secondaryColor);
+    /* margin-top: -170px; */
+    /* ? digunakan untuk membuat background naik */
+    padding-top: 520px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+#gambar-serti img{
+    min-width: 200px;
+    height: 300px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.gambar-linkedin img{
+    border: 3px solid white;
+    min-width: 80px;
+    min-height: 80px;
+    margin: 5px;
+}
+/* End Pendidikan */
+
+/* Portofolio */
+#portofolio .container{
+    padding: 80px 10px;
+}
+
+#portofolio img{
+    min-width: 330px;
+    min-height: 330px;
+    margin: 3px;
+}
+
+#portofolio .card{
+    background-color: #707070;
+    margin: 10px;
+}
+
+/* End Portofolio */

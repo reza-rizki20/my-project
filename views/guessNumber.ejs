@@ -1,0 +1,30 @@
+<%- include("partials/head.ejs") %>
+<body class="d-flex flex-column min-vh-100">
+    <%- include('partials/navbar.ejs') %>
+    <main class="flex-grow-1">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 offset-3 my-6">
+                        <div class="card" style="width: 38rem;">
+                            <img class="gambar card-img-top offset-3 belur" src="" alt="">
+                            <div class="card-body">
+                              <p class="setatus card-text text-center" style="color: green;"><b> TEBAK ANGKA PADA GAMBAR DI ATAS</b></p>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="inputAngka form-control text-center p-3" placeholder="Masukkan Tebakan Anda Disini">
+                            </div>
+                            <div class="card-body my-5">
+                                <p class="tebak card-text text-center" style="color: red;"></p>
+                                <button class="tombol col-6 btn btn-outline-success btn-outline-danger text-center offset-3">Coba Lagi?</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <%- include("partials/footer.ejs") %>
+    <script src="js/guessNumber.js"></script>
+    <script src="js/search.js"></script>
+</body>

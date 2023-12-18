@@ -1,0 +1,19 @@
+<%- include("partials/head.ejs") %>
+<body class="d-flex flex-column min-vh-100">
+    <%- include('partials/navbar.ejs') %>
+    <main class="flex-grow-1">
+        <div class="container column is-half my-4">
+            <div id="formNewInput" class="card-content">
+                
+            </div>
+            <div class="columns is-mobile is-centered my-3">
+                <div id="addRandomJokes" class="button is-success">Random Jokes</div>
+            </div>  
+        </div>
+    </main>
+    <%- include('partials/footer.ejs') %>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/dadJokes.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
